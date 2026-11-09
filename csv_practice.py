@@ -18,3 +18,14 @@ with open(SALES_FILE, "r") as f:
     reader = csv.reader(f)
     for row in reader:
         print(row)
+
+#Exercise 3: Skip the Header
+with open(SALES_FILE, "r") as f:
+    reader = csv.reader(f)
+    header = next(reader)  # Skip the header row
+    print(f"Header: {header}")
+    for row in reader:
+        print(row)
+
+
+
