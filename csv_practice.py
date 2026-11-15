@@ -2,6 +2,17 @@
 #Author: Jordan Clyne
 #Module 12 Lab: Read a Sales CSV, Write a Cleaned Report
 
+#1. The same process in Excel would require more use of the mouse and more clicks. 
+#Python automates the process and allows the process to be completed more concisely.
+#Excel is more visual and allows for data to be changed easily. However, Python is more efficient.
+
+#2. A real business process that would benefit from an append mode log is a sales report.
+#A business could track daily sales and append each day's sales to the file. 
+#Append mode is the right tool because it would allow data to be added without deleting previous data.
+
+
+
+
 import csv
 from datetime import datetime
 
